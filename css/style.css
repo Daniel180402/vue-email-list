@@ -8,6 +8,10 @@ body {
     background-size: 100%;
 }
 
+li{
+    height: 50px;
+}
+
 .bg-light-grey{
     background-color: rgb(233, 233, 233);
 }

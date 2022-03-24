@@ -5,14 +5,14 @@ const app = new Vue({
         
     },
     methods: {
-        // removeListItem(itemIndex){
-        //     if(this.emailList[itemIndex] != undefined){
-        //         this.emailList.splice(itemIndex, 1);
-        //     }
-        //     else{
-        //         console.log("This element doesn't exist");
-        //     }
-        // }
+        removeListItem(itemIndex){
+            if(this.emailList[itemIndex] != undefined){
+                this.emailList.splice(itemIndex, 1);
+            }
+            else{
+                console.log("This element doesn't exist");
+            }
+        },
     },
     created(){},
     mounted(){
